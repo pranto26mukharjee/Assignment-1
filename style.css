@@ -40,6 +40,9 @@ ul li a{
     text-decoration: none;
     
 }
+
+
+
 ul li{
     columns: #575757;
 }
@@ -50,4 +53,55 @@ button{
     padding: 13px 35px;
     border-radius: 5px;
     font-weight: bold;
+    cursor: pointer;
+}
+
+
+.hero{
+
+height:400px;
+
+background-image: url('images/banner.jpg');
+background:
+linear-gradient(
+rgba(0,0,0,.7),
+rgba(0,0,0,.8)
+), url('images/banner.jpg');
+
+
+
+
+background-size:cover;
+background-position:center;
+
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+
+color:white;
+
+}
+
+.hero-content{
+
+max-width:650px;
+
+}
+
+
+.hero h1{
+
+font-size:42px;
+margin-bottom:15px;
+
+}
+
+
+.hero p{
+
+font-size:15px;
+line-height:22px;
+margin-bottom:35px;
+
 }
