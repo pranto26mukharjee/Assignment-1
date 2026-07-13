@@ -223,3 +223,237 @@ h2 {
   background: #2563eb;
   color: white;
 }
+
+/* ==========================
+   Hackathon AI Section
+========================== */
+
+
+.hackathon{
+
+margin:60px 7%;
+
+background:#0f1f33;
+
+border-radius:18px;
+
+padding:50px;
+
+color:white;
+
+overflow:hidden;
+
+}
+
+
+
+.hack-content{
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+gap:40px;
+
+}
+
+
+
+.hack-text{
+
+width:55%;
+
+}
+
+
+
+.hack-text span{
+
+color:#60a5fa;
+
+font-size:13px;
+
+font-weight:bold;
+
+letter-spacing:1px;
+
+}
+
+
+
+.hack-text h2{
+
+text-align:left;
+
+font-size:38px;
+
+line-height:1.2;
+
+margin:15px 0;
+
+color:white;
+
+}
+
+
+
+.hack-text p{
+
+color:#cbd5e1;
+
+line-height:25px;
+
+font-size:15px;
+
+}
+
+
+
+
+.hack-info{
+
+display:flex;
+
+gap:35px;
+
+margin:30px 0;
+
+}
+
+
+
+.hack-info h3{
+
+font-size:30px;
+
+color:#60a5fa;
+
+}
+
+
+
+.hack-info p{
+
+font-size:13px;
+
+}
+
+
+
+.hack-text button{
+
+background:#2563eb;
+
+padding:14px 35px;
+
+}
+
+
+
+
+
+/* Right card */
+
+
+.challenge-box{
+
+width:35%;
+
+background:white;
+
+color:#111827;
+
+padding:30px;
+
+border-radius:15px;
+
+}
+
+
+
+.challenge-box h3{
+
+font-size:22px;
+
+margin-bottom:25px;
+
+}
+
+
+
+.track{
+
+display:flex;
+
+align-items:center;
+
+gap:15px;
+
+padding:15px 0;
+
+border-bottom:1px solid #ddd;
+
+font-size:15px;
+
+}
+
+
+
+.track span{
+
+background:#2563eb;
+
+color:white;
+
+padding:7px 10px;
+
+border-radius:50%;
+
+font-size:12px;
+
+}
+
+
+
+
+
+/* Responsive */
+
+
+@media(max-width:768px){
+
+
+.hack-content{
+
+flex-direction:column;
+
+}
+
+
+
+.hack-text,
+.challenge-box{
+
+width:100%;
+
+}
+
+
+
+.hack-text h2{
+
+font-size:30px;
+
+}
+
+
+
+.hack-info{
+
+gap:15px;
+
+}
+
+}
